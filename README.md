@@ -7,6 +7,16 @@ Sentiment analysis, also known as opinion mining, is a natural language processi
 ### Overview
 This project demonstrates the use of RoBERTa and VADER models for sentiment analysis on textual data. The goal is to classify text into positive, neutral, or negative sentiments based on their content.
 
+### Tools used for this project:
+* Python
+* Google Colab (Notebook)
+* NLTK
+* Hugging Face
+* Numpy
+* Pandas
+* Seaborn
+* Matplotlib
+
 ### Models Used:
 **RoBERTa**: A state-of-the-art NLP model from Hugging Face's Transformers library.
 
