@@ -30,3 +30,9 @@ This project demonstrates the use of RoBERTa and VADER models for sentiment anal
 
 ### Results
 The sentiment analysis results will provide the probability distribution over the sentiment classes (negative, neutral, positive) for each text sample.
+{
+    "roberta_neg": 0.97635514,
+    "roberta_neu": 0.020687465,
+    "roberta_pos": 0.0029573692
+}
+
