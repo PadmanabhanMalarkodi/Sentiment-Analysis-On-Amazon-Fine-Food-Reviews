@@ -1,5 +1,9 @@
 # Sentiment-Analysis-On-Amazon-Food-Review
 ## Sentiment Analysis with RoBERTa and VADER
+
+### Intoduction
+Sentiment analysis, also known as opinion mining, is a natural language processing (NLP) task that involves determining the sentiment or emotional tone expressed in a piece of text. The goal is to classify the sentiment as positive, negative, or neutral. Sentiment analysis has applications in customer feedback analysis, social media monitoring, product reviews, and more.
+
 ### Overview
 This project demonstrates the use of RoBERTa and VADER models for sentiment analysis on textual data. The goal is to classify text into positive, neutral, or negative sentiments based on their content.
 
