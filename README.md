@@ -35,6 +35,19 @@ Clean the text data by removing unwanted characters, stopwords, and applying tok
 **ii)Run the sentiment analysis**:
 Execute the notebook or script to classify the text data into positive, neutral, or negative sentiments using the RoBERTa and VADER models.
 
+### Key Issues and Solutions
+1. **Loss of Sentiment Context During Preprocessing**
+   - *Issue*: Removing stop words and lemmatization/Stemming altered sentiment context.
+   - *Solution*: Updated preprocessing to preserve key sentiment words and negations.
+
+2. **Minimal Preprocessing Approach**
+   - *Issue*: Needed to maintain sentiment context while simplifying preprocessing.
+   - *Solution*: Implemented a basic preprocessing function that only removes punctuation and converts text to lowercase.
+
+3. **Evaluation of Sentiment Analysis with VADER**
+   - *Issue*: Lack of direct evaluation metrics for VADER.
+   - *Solution*: Compared VADER predictions with the actual 'Score' column to calculate evaluation metrics.
+
 ### Results
 The sentiment analysis results will provide the probability distribution over the sentiment classes (negative, neutral, positive) for each text sample.
 
