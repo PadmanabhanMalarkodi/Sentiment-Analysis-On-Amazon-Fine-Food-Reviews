@@ -17,16 +17,20 @@ This project demonstrates the use of RoBERTa and VADER models for sentiment anal
 * Seaborn
 * Matplotlib
 
+### Dataset:
+https://www.kaggle.com/datasets/snap/amazon-fine-food-reviews
+
 ### Models Used:
 **RoBERTa**: A state-of-the-art NLP model from Hugging Face's Transformers library.
 
 **VADER**: A lexicon and rule-based sentiment analysis tool that is particularly effective for social media texts.
 
-### Project Structure
-**notebooks/**: Contains the Jupyter notebook used for the analysis and implementation of the sentiment analysis models.
-**data/**: Folder containing the dataset used for sentiment analysis.
-**scripts/**: Python scripts used for preprocessing, model training, and evaluation.
-**README.md**: This file, providing an overview of the project.
+### Usage
+**i)Preprocess the data**:
+Clean the text data by removing unwanted characters, stopwords, and applying tokenization.
+
+**ii)Run the sentiment analysis**:
+Execute the notebook or script to classify the text data into positive, neutral, or negative sentiments using the RoBERTa and VADER models.
 
 ### Results
 The sentiment analysis results will provide the probability distribution over the sentiment classes (negative, neutral, positive) for each text sample.
