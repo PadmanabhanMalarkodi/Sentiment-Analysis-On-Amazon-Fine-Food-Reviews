@@ -20,6 +20,9 @@ This project demonstrates the use of RoBERTa and VADER models for sentiment anal
 ### Dataset:
 https://www.kaggle.com/datasets/snap/amazon-fine-food-reviews
 
+**About the  dataset**:
+This dataset consists of reviews of fine foods from amazon. The data span a period of more than 10 years, including all ~500,000 reviews up to October 2012. Reviews include product and user information, ratings, and a plain text review. It also includes reviews from all other Amazon categories.
+
 ### Models Used:
 **RoBERTa**: A state-of-the-art NLP model from Hugging Face's Transformers library.
 
