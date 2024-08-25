@@ -27,3 +27,6 @@ This project demonstrates the use of RoBERTa and VADER models for sentiment anal
 **data/**: Folder containing the dataset used for sentiment analysis.
 **scripts/**: Python scripts used for preprocessing, model training, and evaluation.
 **README.md**: This file, providing an overview of the project.
+
+### Results
+The sentiment analysis results will provide the probability distribution over the sentiment classes (negative, neutral, positive) for each text sample.
