@@ -5,6 +5,7 @@ This project demonstrates the use of RoBERTa and VADER models for sentiment anal
 
 ### Models Used:
 **RoBERTa**: A state-of-the-art NLP model from Hugging Face's Transformers library.
+
 **VADER**: A lexicon and rule-based sentiment analysis tool that is particularly effective for social media texts.
 
 ### Project Structure
